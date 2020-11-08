@@ -6,6 +6,12 @@ def factorial(n):
     return n
 
 
+def add_dict(user, number, factorial):
+    dictoniary = {}
+    dictoniary[user] = number, factorial
+    return dictoniary
 
 if __name__ == "__main__":
     print(factorial(5))
+    add = add_dict('miguel', 5, 120)
+    print(add)
