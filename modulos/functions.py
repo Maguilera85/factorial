@@ -7,9 +7,9 @@ def factorial(n):
 
 
 def add_dict(user, number, factorial):
-    dictoniary = {}
-    dictoniary[user] = number, factorial
-    return dictoniary
+    dictionary = {}
+    dictionary[user] = number, factorial
+    return dictionary
 
 if __name__ == "__main__":
     print(factorial(5))
