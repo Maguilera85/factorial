@@ -7,8 +7,8 @@ while True:
     result = mod.factorial(number)
     print(name + ", el resultado es: " + str(result))
     exit = str(input("¿Desea seguir usando la app? C/ontinuar o S/alir\n >> "))
-    if exit == "C" and exit == "c" and exit == "continuar":
+    if exit == "C" or exit == "c" or exit == "continuar":
         continue
-    elif exit == "S" and exit == "s" and exit == "salir":
+    elif exit == "S" or exit == "s" or exit == "salir":
         print("¡Hasta pronto!")
         break
